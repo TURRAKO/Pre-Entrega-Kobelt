@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@500&family=Raleway:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    vertical-align: baseline;
+    font-size: 100%;
+    border: 0;
+ 
+}
+
+body{
+    text-align: center;
+}
+
+h2 {
+    color: #191919;
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+}
+li {
+    color: rgb(31, 206, 25);
+font-weight: bold;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.nav{
+background-color: #080808;
+width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*ENCABEZADO*/
+
+header{
+    display: flex;
+    text-align: center;
+    justify-content: space-between  ;
+    align-items: center;
+    background-color: #191919;
+    width: 100%;
+}
+
+.logo{
+
+    display: flex;
+    align-items: center;
+    
+}
+.Inicio{
+    display: flex;
+    color: black;
+}
+
+.Inicio a{
+
+    background-color: rgb(78, 3, 78);
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    justify-content: space-between;
+}
+
+.nav-link{
+ 
+    margin: 50px;
+
+}
+.nav-opi{
+
+    text-align: right;
+}
+
+h1{
+    color: gold;
+    font-family: 'Raleway', sans-serif;
+    font-size: 55px;
+    text-align: justify;
+}
+
+.hero{
+background-image: url(../Multimedia/status.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 100%;
+font-size: 200px;
+padding-top: 200px;
+border: 10px black solid;
+object-fit: cover;
+width: 100%;
+background-color: violet;
+}
+
+
+.btn{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    background-color: rgba(153, 18, 216, 0.377);
+    border: 10px black solid;
+    color: #0a0a0a;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+
+
+
+section {
+    background-color: violet;
+    padding: 15px;
+}
+
+/*MAIN INDEX*/
+
+.caja{
+
+    background-color: rgb(78, 3, 78);
+    border: 10px gold outset;
+    border-radius: 20px;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Chivo Mono', monospace;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background: url(../Multimedia/for\ sale.webp) ;
+}
+
+.pnj{
+   height: 20px;
+   margin-right: 10px;
+}
+
+.descuento{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;  
+    font-size: 40px;
+    font-family: 'Chivo Mono', monospace; 
+    color: #e4c30b;
+}
+.move{
+    font-size: 100px;
+    color: white;
+    position: sticky;
+    top: 0;
+    color: rgb(78, 3, 78);
+    width: 100%;
+}
+
+/*CARDS*/
+
+.cards__2{
+    background-color: violet;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    padding-bottom: 100px;
+    box-shadow: 0 .3rem 5rem black;
+    margin-top: 10px;  
+}
+.card {
+    background-color: #e0ca04;
+    object-fit: cover;
+    width: 100%;
+    margin: 2%;
+    margin-top: 20px;
+    width: 229px;
+    box-shadow: 0 .1rem 4rem black;
+}
+
+.card img{
+    border: 2px solid black
+    
+}
+
+.card__body h5{
+    background-color: red;
+    width: 100px;
+    height: 15px;
+    border-radius: 5px;
+    
+}
+
+.card__body{
+    border: 2px solid black ;
+    border-top: 100px;
+}
+
+/*MAIN ABOUT*/
+/*
+.hora{
+    color:  #e0ca04;
+    background-color: #191919;
+    font-size: 30px;
+    margin-left: 610px;
+    margin-right: 610px;
+    border-radius: 5px;
+}
+.hora h2{
+    font-size: 60px;
+    background-color: violet;
+}
+/*MAIN CONTACTO*/
+
+.form{
+    display: flex;
+    width: 0%;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: violet;
+}
+.form-control{
+    margin-left: 630px;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.form-check .form-check-input{
+    align-items: center;
+    justify-content: center;
+    float: none;
+}
+.mb-3{
+    align-items: center;
+    justify-content: center;
+}
+.file{
+    background-color: violet;
+    padding: 50px;
+}
+/*MAIN AYUDA*/
+
+/*MAIN PRODUCTOS*/
+
+.grilla{
+    padding: 10px;
+    background-color: #e0ca04;
+
+}
+
+.caja__2{
+    width: 850px;
+    display: flex;
+    background-color: rgb(78, 3, 78);
+    border: 10px gold outset;
+    border-radius: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    padding: 20px;
+}
+    
+.caja__2 img{
+    display: flex;
+    height: 220px;
+    padding-right: 15px;
+}
+
+.caja__2 select{
+display: flex;
+}
+
+/*FOOTER*/
+
+.grupo-1{
+        width: 100%;
+        background-color: rgb(78, 3, 78);
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 70px;
+        padding:  100px 30px;
+        align-items: center;
+        padding-left: 700px;
+        display: flex;
+        color: black;
+        font-size: 15px;
+}
+.red-social{
+background-color: rgb(78, 3, 78);
+width: 80px;
+display: flex;
+justify-content: center;
+background-repeat: no-repeat;
+margin-left: 12px;
+}
+.grupo-2{   
+margin-right: 10px;
+padding-bottom: 45px;
+}
+.logo {
+    color: rgb(2, 2, 2);
+}
+
+.box h4{
+    font-size: 15px;
+}
+
+@media (min-width:600px) {
+    .header{
+    flex-direction: column;
+    background-color: #d81b1b;
+}
+
+}
