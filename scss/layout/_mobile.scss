@@ -1,0 +1,94 @@
+/**Mediaqueries**/
+
+/**Media Navbar**/
+@media only screen and (max-width:650px){
+    .Inicio{
+        display: grid;
+        text-align: start;
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+        align-items: center;
+        a{
+            width: 190px;
+            padding: 10px;
+            margin-bottom: 10px;
+            justify-content: center;
+            align-items: center;
+            margin-left: 50px;
+        }
+        }
+    header{
+        display: grid;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+/**Media Index**/
+@media only screen and (max-width:450px){
+    .cards{
+    flex-direction: column;
+    width: 3000px;
+    padding-bottom: 5px;
+    }
+    .descuento{
+    padding-right: 0;
+    position: static;
+    color: gold;
+    -webkit-text-security: disc;
+    }
+}
+
+/**Bootstrap**/
+
+@media only screen and (max-width:450px){
+    .form-control{
+        margin-right: 900px;
+        margin-left: 0;
+        width: 300px;
+        display: grid;
+    }
+}
+
+@media only screen and (max-width:375px){
+    .form-control{
+        width: 200px;
+        justify-content: start;
+        align-items: start;
+    }
+}
+
+/**Media Productos**/
+@media only screen and (max-width:880px){
+    .caja__2{
+        display: contents;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/**Media Contacto**/
+
+@media only screen and (max-width:380px){
+    .card.-h100{
+        width: 200px;
+    }
+}
+
+/**Media Footer**/
+
+@media only screen and (max-width:850px){
+    .grupo-1{
+        padding-left: 20px;
+        align-items: baseline;
+        grid-gap: 30px;
+        display: grid;
+    }
+}
+@media only screen and (max-width:375px){
+    .grupo-1{
+        grid-gap: 2px;
+        padding-left: 5px;
+    }
+}
