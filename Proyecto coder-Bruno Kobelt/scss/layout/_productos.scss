@@ -1,0 +1,29 @@
+.grilla{
+    padding: 10px;
+    background-color: #e0ca04;
+    text-align: start;
+}
+
+.caja__2{
+    width: 850px;
+    display: flex;
+    background-color: rgb(78, 3, 78);
+    border: 10px gold outset;
+    border-radius: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    select{
+        align-items: center;
+    }
+}
+    
+.caja__2 img{
+    display: flex;
+    height: 220px;
+    padding-right: 15px;
+}
+
+.caja__2 select{
+display: flex;
+}
