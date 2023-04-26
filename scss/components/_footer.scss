@@ -1,0 +1,35 @@
+.grupo-1{
+    width: 100%;
+    background-color: rgb(78, 3, 78);
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 70px;
+    padding:  100px 30px;
+    align-items: center;
+    padding-left: 700px;
+    display: flex;
+    color: black;
+    font-size: 15px;
+}
+.red-social{
+background-color: rgb(78, 3, 78);
+width: 80px;
+display: flex;
+justify-content: center;
+background-repeat: no-repeat;
+margin-left: 5px;
+}
+.grupo-2{   
+padding-bottom: 45px;
+}
+.logo {
+color: rgb(2, 2, 2);
+font-size: 30px;
+}
+
+.box h4{
+font-size: 15px;
+}
+
